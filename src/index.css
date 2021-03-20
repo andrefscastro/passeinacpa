@@ -1,0 +1,1359 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 1500px;
+}
+@font-face {
+  font-family: "Biennale1";
+  src: url(./fonts/Biennale\ Black.otf);
+  font-weight: 900;
+}
+
+@font-face{
+  font-family: "Biennale2";
+  src: url(./fonts/Biennale\ Book.otf);
+  font-weight: 800;
+}
+
+@font-face{
+  font-family: "Biennale3";
+  src: url(./fonts/Biennale\ Hair.otf);
+  font-weight: 700;
+}
+
+@font-face{
+  font-family: "Biennale4";
+  src: url(./fonts/Biennale\ Light.otf);
+  font-weight: 600;
+}
+
+@font-face{
+  font-family: "Biennale5";
+  src: url(./fonts/Biennale\ Thin.otf);
+  font-weight: 500;
+}
+
+/*Iniciando topo*/
+
+.topo{
+  background-image: url(./imagens/bg-escritorio.png), url(./imagens/imagem-topo.png);
+  background-size: cover, 60%;
+  background-position: top, bottom right;
+  background-repeat: no-repeat;
+  top: 0px;
+  width: 100%;
+  max-width: 1500px;
+  height: 600px;
+  z-index: 2;
+  position: relative;
+}
+
+
+
+.logo-cpa{
+  background-image: url(./imagens/logo-cpa.png);
+  position: relative;
+  width: 238.89px;
+  height: 50px;
+  left: 12%;
+  top: 50.55px;
+  z-index: 999;
+  }
+
+.texto-principal{
+  position: relative;
+  width: 90%;
+  max-width: 411px;
+  height: 150px;
+  left: 12%;
+  top: 180px;
+  font-family: "Biennale1";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 40px;
+  color: #0d0b46;
+  text-align: left;
+  z-index: 999;
+}
+
+.texto-principal span{
+  color: #2485e7;
+}
+
+.texto-secundario{
+  position: relative;
+  width: 291px;
+  height: 130px;
+  top: 200px;
+  left: 12%;
+}
+
+.texto-secundario p{
+  left: 12%;
+  right: 63.2%;
+  bottom: 23.12%;
+  font-family: "Biennale4";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  z-index: 9999;
+}
+
+/**Finalizando topo**/
+
+/*Iniciando sessao 1*/
+
+.sessao1{
+  width: 100%;
+  height: 700px;
+  background-color: #2485e7;
+  margin-top: 0;
+  z-index: 0;
+  background-image: url(./imagens/Vector2.svg), url(./imagens/Vector3.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left, right;
+  top: 0;
+}
+
+.semicircle{
+  position: absolute;
+  width: 100%;
+  height: 440px;
+  clip-path: circle(65.3% at 50% 0);
+  background-color: white;
+  top: -50px;
+  z-index: 0;
+  left: 0;
+}
+
+.divisor-sessao1{
+  position: relative;
+  width: 100%;
+  height: 600px;
+  margin-top: 20px;
+  font-family: 'Biennale5';
+  margin-top: 20px;
+}
+
+.line1{
+  position: relative;
+  width: 48px;
+  height: 5px;
+  top: 20px;
+  margin: 0 auto;
+  background: #2485E7;
+  border-radius: 10px;
+  z-index: 999;
+}
+
+.divisor-sessao1 h3{
+  position: relative;
+  top: 50px;
+  text-align: center;
+  font-family: 'Biennale1';
+  color: #0D0B46;
+  font-size: 18px;
+  margin-top: 30px;
+  z-index: 999;
+}
+
+.divisor-sessao1 p{
+  position: relative;
+  top: 70px;
+  text-align: center;
+  font-family: 'Biennale5';
+  color: #0D0B46;
+  font-size: 14px;
+}
+
+.tipos-simulado{
+  width: 100%;
+  top: 0;
+}
+
+.divisor-sessao1 .tipos-simulado ul{
+  position: relative;
+  top: 80px;
+  text-align: center;
+  margin-top: 60px;
+  margin: 60px auto;
+}
+
+.tipos-simulado li{
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 20px;
+  border: 2px solid #2485E7;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 170px;
+  height: 50px;
+  line-height: 50px;
+  font-family: 'Biennale1';
+  color: #2485e7;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #FFFFFF;
+  margin-top: 20px;
+}
+
+.card-1{
+  padding-left: 2%;
+  padding-right: 2%;
+  box-sizing: border-box;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: relative;
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  top: 300px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 40px -10px rgba(36, 133, 231, 0.7);
+  border-radius: 20px;
+  z-index: 4;
+}
+
+.avatar1{
+  position: relative;
+  width: 80px;
+  height: 80px;
+  background-image: url(./imagens/avatar1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: -85px;
+  z-index: 1;
+}
+
+.card-1-wrap{
+  margin-top: -70px;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.part-1{
+  width: 40%;
+  margin-right: 30px;
+}
+
+.part-1 h3{
+  position: relative;
+  text-transform: uppercase;
+  width: 124px;
+  height: 28px;
+  top: 0px;
+  font-family: 'Biennale1';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 28px;
+  color: #0D0B46;
+  z-index: 999;
+}
+
+.line2{
+  width: 48px;
+  height: 5px;
+  margin-top: 10px;
+  background: #2485E7;
+  border-radius: 10px;
+}
+
+.part-1 p{
+  top: 0;
+  position: relative;
+  text-align: left;
+  width: 100%;
+  max-width: 368px;
+  height: 72px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  font-family: 'Biennale5';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #0D0B46;
+}
+
+.btn1{
+  width: 170px;
+  height: 50px;
+  margin-top: 50px;
+  background: #2485E7;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.btn1 span{
+  font-family: 'Biennale1';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 50px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.descricao1{
+  margin-top: 3%;
+  text-align: right;
+  position: relative;
+  width: calc(50% - 4%);
+  max-width: 550px;
+  height: 100%;
+  max-height: 370px;
+  background: rgba(36, 133, 231, 0.1);
+  border-radius: 10px;
+  padding: 2%;
+  margin-left: 0;
+}
+
+.h3-wrapper{
+  position: relative;
+  width: 97%;
+  height: 38px;
+  top: -20px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  padding-left: 20px;
+}
+
+.descricao1 .h3-wrapper h3{
+  position: relative;
+  top: 0;
+  text-align: left;
+  font-family: 'Biennale1';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 38px;
+  color: #0D0B46;
+}
+
+.descricao1{
+  left: 70px;
+}
+
+.descricao1 ul{
+  top: 0px;
+  text-align: left;
+  list-style-image: url(./imagens/check.svg);
+  margin-top: 0px;
+  padding-left: 35px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.descricao1 li{
+  padding: 2%;
+  font-family: 'Biennale5';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  color: #0D0B46;
+}
+
+.line3{
+  position: absolute;
+  border: 1px solid rgba(36, 133, 231, 0.4);
+  width: 52%;
+  left: 0;
+  margin-top: 30px;
+}
+
+.duvida{
+  position: relative;
+  top: -80px;
+  width: 40%;
+  left: 0;
+  margin-top: 0px;
+  z-index: 999;
+  padding-bottom: 20px;
+}
+
+.duvida h3{
+  font-family: 'Biennale1';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  color: #2485E7;
+  text-align: left;
+}
+
+.duvida p{
+  margin-left: -5px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-family: 'Biennale5';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #0D0B46;
+  text-align: center;
+}
+
+.duvida span{
+  font-family: 'Biennale1';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #26C867;
+  cursor: pointer;
+  background-image: url(./imagens/whatsapp.png);
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+
+/**Finalizando sessao 1**/
+
+/*Iniciando sessao 2*/
+
+.sessao2{
+  position: relative;
+  top: 0;
+  width: 100%;
+  background-color: #2485E7;
+  padding: 30px 2%;
+  background-image: url(./imagens/vetordireito.svg);
+  background-size: 8%;
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+.container-sessao2{
+  text-align: left;
+  width: 100%;
+  z-index: 999;
+  top: 20px;
+}
+
+.line4{
+  width: 48px;
+  height: 5px;
+  margin: 0 auto;
+  background: #FFFFFF;
+  border-radius: 10px;
+  z-index: 999;
+  margin-top: 150px;
+}
+
+.container-sessao2 h3{
+  font-family: 'Biennale1';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.container-sessao2 p{
+  font-family: 'Biennale5';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 28px;
+  color: #FFFFFF;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.sessao2-wrap{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.container-sessao2 ul{
+  position: relative;
+  width: 100%;
+  max-width: 350px;
+  top: 0px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 40px -10px rgba(36, 133, 231, 0.7);
+  border-radius: 20px;
+  list-style-type: none;
+  margin-bottom: 50px;
+}
+
+.container-sessao2 li{
+  height: 60px;
+  font-family: 'Biennale1';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 60px;
+  color: #0D0B46;
+  text-align: left;
+  border-bottom: 1px solid rgba(36, 133, 231, 0.4);
+  padding-left: 20px;
+  position: relative;
+}
+
+.container-sessao2 span{
+  position: absolute;
+  padding-left: 30px;
+  left: 280px;
+}
+
+.sessao2-descricao{
+  position: relative;
+  width: 35%;
+  text-align: justify;
+  z-index:999;
+  margin-left: 150px;
+}
+
+.sessao2-descricao span{
+  width: 20px;
+  height: 20px;
+  background-image: url(./imagens/emoji1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-right: 10px;
+  margin-right: 20px;
+  position: relative;
+  left: 0;
+}
+
+.sessao2-descricao h3{
+  font-family: 'Biennale1';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 28px;
+  color: #FFFFFF;
+  margin-top: 0;
+}
+
+.sessao2-descricao p{
+  font-family: 'Biennale5';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 28px;
+  color: #FFFFFF;
+  text-align: justify;
+}
+
+/*sessao3*/
+
+.sessao3{
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 400px;
+  background-image: url(./imagens/Vector6.svg),url(./imagens/bg-sessao3.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: -5px;
+  
+}
+
+
+.sessao3 .womanimg{
+  width: 60%;
+  height: 400px;
+  background-image: url(./imagens/photo-women1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  margin: 0 auto;
+  transform: translateX(-10%);
+  transform: translateY(10%);
+  z-index: 2;
+  top: -40px;
+}
+
+.cadastrar{
+  width: 100%;
+  max-width: 300px;
+}
+
+.sessao3 .womanimg h3{
+  position: absolute;
+  width: 70%;
+  top: 100px;
+  left: 63%;
+  font-family: 'Biennale1';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 38px;
+  color: #0D0B46;
+}
+
+.womanimg span{
+  color: #2485e7;
+}
+
+.cadastrar{
+  width: 100%;
+}
+
+.btn-cadastro{
+  width: 170px;
+  height: 50px;
+  margin-top: 10px;
+  background-color: #2485E7;
+  border-radius: 10px;
+  font-family: 'Biennale1';
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  position: absolute;
+  left: 63%;
+  top: 180px;
+  cursor: pointer;
+}
+
+/**Finalizando sessão 3**/
+
+/*Iniciando Sessão 4*/
+
+.sessao4{
+  position: relative;
+  top: 0px;
+  width: 100%;
+  background-color: #ffffff;
+  background-image: url(./imagens/sessao4.svg);
+}
+
+.sessao4-container{
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.container-titulo{
+  margin-top: 30px;
+}
+
+.container-titulo .line-sessao4{
+  width: 48px;
+  height: 5px;
+  top: 0;
+  left: 0;
+  background: #2485E7;
+  border-radius: 10px;
+  z-index: 999;
+}
+
+.sessao4-container h3{
+  font-family: 'Biennale1';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.sessao4-container p{
+  font-family: 'Biennale5';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 28px;
+  color: #0D0B46;
+  margin-top: 8px;
+}
+
+.sessao4-card1{
+  text-align: center;
+  display: flex;
+  margin-top: 70px;
+  width: 100%;
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 70px -20px rgba(36, 133, 231, 0.4);
+  border-radius: 30px;
+  padding-top: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+}
+
+
+
+.sessao4-card1 h3{
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 50px;
+  height: 50px;
+  background-color: #ffffff;
+  border: 8px solid rgba(36, 133, 231, 0.1);
+  border-radius: 25px;
+  line-height: 35px;
+  color: #2485E7;
+}
+
+.motivo1{
+  margin-right: 30px;
+}
+
+.sessao4-card1 h4{
+  font-family: 'Biennale1';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #0D0B46;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.sessao4-card1 p{
+  font-family: 'Biennale5';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #0D0B46;
+  margin-top: 20px;
+}
+
+/**Finalizando Sessão 4**/
+
+/*Iniciando o Footer*/
+
+.footer{
+  width: 100%;
+  background-color: #ffffff;
+  position: relative;
+  top: 150px;
+}
+
+.footer .footer-container{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 30px;
+  
+}
+
+.footer .logo-footer{
+  width: 100%;
+  max-width: 180px;
+  background-image: url(./imagens/logo-cpa.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.footer .footer-endereco{
+  width: 100%;
+  max-width: 180px;
+  margin-left: 40px;
+  
+}
+
+.footer-endereco h3{
+  font-family: 'Biennale1';
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 14px;
+  color: #0d0b46;
+}
+
+.footer-endereco p{
+  font-family: 'Biennale5';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #0D0B46;
+  margin-top: 20px;
+}
+
+.footer .footer-contato{
+  width: 100%;
+  max-width: 180px;
+  margin-left: 40px;
+}
+
+.footer .footer-contato h3{
+  text-transform: uppercase;
+  font-family: 'Biennale1';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 14px;
+  color: #0d0b46;
+}
+
+.footer-contato p{
+  font-family: 'Biennale5';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #0D0B46;
+  margin-top: 20px;
+}
+
+.footer .footer-sociais{
+  width: 100%;
+  max-width: 180px;
+  display: flex;
+  justify-content: center;
+  margin-left: 40px;
+}
+
+.footer-sociais .face{
+  width: 30px;
+  height: 30px;
+  background-image: url(./imagens/face.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.footer-sociais .insta{
+  width: 30px;
+  height: 30px;
+  background-image: url(./imagens/insta.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+/**Finalizando Footer**/
+
+
+@media screen and (max-width: 1024px) {
+  .sessao4{
+    top: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .topo{
+    background-size: cover, 80%;
+    background-position: top, top right;
+  }
+
+  .logo-cpa{
+    left: 0;
+    margin: 0 auto;
+    top: 21px;
+  }
+
+  .texto-principal{
+    top: 100px;
+    left: 2%;
+    font-size: 25px;
+    line-height: 50px;
+  }
+
+  .texto-secundario{
+    top: 300px;
+    width: 90%;
+    left: 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .line1{
+    top: 0;
+  }
+
+  .divisor-sessao1 .tipos-simulado ul{
+    top: 20px;
+  }
+
+  .card-1{
+    width: 90%;
+  }
+
+  .card-1-wrap{
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+
+  .part-1{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .part-1 h3{
+    text-align: center;
+    margin: 20px auto;
+  }
+
+  .line2{
+    margin: 10px auto;
+  }
+
+  .part-1 p{
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  .line3{
+    display: none;
+  }
+
+  .descricao1{
+    margin-top: 3%;
+    text-align: right;
+    position: relative;
+    width: 80%;
+    height: 100%;
+    max-height: 370px;
+    background: rgba(36, 133, 231, 0.1);
+    border-radius: 10px;
+    padding: 2%;
+    left: 0;
+    margin: 0 auto;
+  }
+
+  .part-1 .btn1{
+    margin: 20px auto;
+  }
+
+  .duvida{
+    width: 100%;
+  }
+
+  .duvida h3{
+    text-align: center;
+  }
+
+  .duvida p{
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .sessao2-wrap{
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .container-sessao2 ul{
+     max-width: 400px;
+     
+  }
+
+  .container-sessao2 span{
+    margin-left: 40px;
+  }
+
+  .sessao2{
+    padding-top: 200px;
+  }
+
+  .sessao2-descricao{
+    width: 53%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .sessao2-descricao span{
+    margin-left: 0;
+  }
+
+  .sessao2-descricao h3{
+    font-size: 28px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-top: 0;
+    text-align: center;
+
+  }
+
+  .sessao3 .womanimg h3{
+    line-height: 38px;
+    text-align: right;
+    padding: 20px;
+    top: 0px;
+  }
+
+  .sessao3 .womanimg{
+    top: 50px;
+  }
+
+  .sessao3 .womanimg .btn-cadastro{
+    top: 140px;
+    left: 92%;
+  }
+
+  .container-titulo .line-sessao4{
+    margin: 0 auto;
+  }
+
+  .container-titulo{
+    text-align: center;
+  }
+
+  .sessao4-card1{
+    flex-wrap: wrap;
+  }
+
+  .motivo1{
+    margin-right: 0;
+  } 
+
+  .footer .footer-container{
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+
+  .footer .footer-contato{
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .footer .footer-contato p{
+    font-size: 12px;
+  }
+
+  .footer .footer-sociais{
+    align-items: center;
+    margin-left: 0;
+  }
+
+  
+}
+
+@media screen and (max-width: 580px) {
+
+  .topo{
+    background-size: cover, 70%;
+    background-position: top, bottom right;
+  }
+
+  .texto-principal{
+    font-size: 25px;
+    top: 60px;
+    left: 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .texto-secundario{
+    top: 120px;
+    width: 40%;
+    margin: 0;
+    left: 4%;
+    text-align: left;
+  }
+
+  .divisor-sessao1 .tipos-simulado ul{
+    top: 20px;
+  }
+
+  .card-1-wrap{
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+
+  .part-1{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .part-1 h3{
+    text-align: center;
+    margin: 20px auto;
+  }
+
+  .line2{
+    margin: 10px auto;
+  }
+
+  .part-1 p{
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  .line3{
+    display: none;
+  }
+
+  .descricao1{
+    margin-top: 3%;
+    text-align: right;
+    position: relative;
+    width: 80%;
+    height: 100%;
+    max-height: 370px;
+    background: rgba(36, 133, 231, 0.1);
+    border-radius: 10px;
+    padding: 2%;
+    left: 0;
+    margin: 0 auto;
+  }
+
+  .part-1 .btn1{
+    margin: 20px auto;
+  }
+
+  .duvida{
+    width: 100%;
+  }
+
+  .duvida h3{
+    text-align: center;
+  }
+
+  .duvida p{
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .sessao2{
+    top: -1px;
+    padding-top: 70px;
+  }
+
+  .container-sessao2{
+    margin-top: 330px;
+  }
+
+  .sessao2-descricao{
+    width: 80%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .footer .footer-contato{
+    margin-left: 0;
+  }
+
+  .footer .footer-contato p{
+    font-size: 12px;
+  }
+
+  .footer .footer-sociais{
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .sessao3{ 
+    height: 250px;
+  }
+
+  .sessao3 .womanimg{
+    top: 10px;
+    height: 200px;
+  }
+
+  .sessao3 .womanimg h3{
+    line-height: 38px;
+    text-align: right;
+    padding: 20px;
+    top: -50px;
+  }
+
+  .sessao3 .womanimg .btn-cadastro{
+    top: 120px;
+    left: 75%;
+  }
+
+  .line-sessao4{
+    margin: 0 auto;
+  }
+
+  .sessao4{
+    height: 750px;
+  }
+
+  .sessao4-card1{
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .footer{
+    padding-top: 30px;
+    height: 650px;
+  }
+
+  .footer .logo-footer{
+    width: 40%;
+    height: 100px;
+  }
+
+  .footer .footer-endereco{
+    width: 50%;
+    height: 150px;
+    margin-left: 10%;
+  }
+
+  .footer .footer-contato{
+    width: 100%;
+    height: 100px;
+    max-width: 250px;
+    text-align: center;
+  }
+
+  .footer .footer-sociais{
+    margin-top: 30px;
+    width: 50%;
+    height: 100px;
+  }
+
+}
+
+@media screen and (max-width: 430px) {
+
+  .topo{
+    background-image: url(./imagens/bg-escritorio.png), url(./imagens/imagem-topo.png);
+    background-size: cover, 100%;
+    background-position: top, center right;
+    background-repeat: no-repeat;
+    top: 0px;
+    width: 100%;
+    max-width: 1500px;
+    height: 600px;
+    z-index: 2;
+    position: relative;
+  }
+
+  .texto-principal{
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .texto-secundario{
+    top: 280px;
+    width: 90%;
+    text-align: center;
+  }
+
+  .semicircle{
+    position: absolute;
+    width: 100%;
+    height: 1040px;
+    clip-path: circle(65.3% at 50% 0);
+    background-color: white;
+    top: -50px;
+    z-index: 0;
+    left: 0;
+  }
+
+  .tipos-simulado li{
+    transform: translateX(-10px);
+  }
+
+  .card-1{
+    top: 400px;
+  }
+
+  .descricao1{
+    width: 98%;
+  }
+
+  .duvida p{
+    margin-left: 0px;
+  }
+
+  .sessao2{
+    padding-top: 200px;
+  }
+
+  .container-sessao2 ul{
+    position: relative;
+    width: 700%;
+    max-width: 350px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px -10px rgba(36, 133, 231, 0.7);
+    border-radius: 20px;
+    list-style-type: none;
+    margin-bottom: 50px;
+  }
+
+  .container-sessao2 span{
+    position: absolute;
+    padding-left: 30px;
+    left: 68%;
+  }
+
+  .sessao2-descricao span{
+    display: none;
+  }
+
+  .sessao3 .womanimg{
+    background-image: none;
+  }
+
+  .sessao3 .womanimg h3{
+    left: 0;
+    margin: 40px auto;
+    text-align: center;
+    width: 100%;
+  }
+    
+  .sessao3 .womanimg .btn-cadastro{
+    width: 80%;
+    top: 160px;
+    left: 0;
+    margin: 20px auto;
+    transform: translateX(11%);
+  }
+  
+  .sessao4{
+    height: 750px;
+  }
+
+  .container-titulo .line-sessao4{
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .footer{
+    height: 600px;
+  }
+
+  .footer .logo-footer{
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .footer .footer-endereco{
+    margin-left: 0;
+  }
+
+  .footer .footer-endereco{
+    width: 200px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  
+  .sessao4{
+    height: 800px;
+  }
+
+  .footer{
+    height: 580px;
+  }
+}
